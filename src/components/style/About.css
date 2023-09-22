@@ -1,0 +1,36 @@
+#dp{
+    height: 400px;
+    border-radius: 50%;
+}
+h3{
+    text-decoration: overline;
+}
+.mainabout{
+    display: flex;
+}
+.rightabt{
+    padding: 7%;
+}
+.leftabt{
+    padding: 7%;
+}
+.down{
+   color: white; 
+   border-radius: 7px;
+   padding: 9px;
+   border-color: aqua;
+   background-color: #2c97ee;
+}
+
+@media screen and (max-width: 500px) {
+    .mainabout{
+        flex-direction: column;
+    }
+    .rightabt{
+        text-align: center;
+    }
+    .leftabt{
+        text-align: center;
+        padding-left: 1%;
+    }
+}

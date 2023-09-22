@@ -1,0 +1,66 @@
+.maincon{
+    text-align: center;
+    padding: 2%;
+
+}
+
+.coninfo{
+    margin-left: 35%;
+}
+.email{
+    border-style: solid;
+    border-color: black;
+    border-radius: 9px;
+    margin: 3%;
+    height: 120px;
+    width: 400px;
+    background-color: lightcyan;
+}
+.mob{
+    border-style: solid;
+    border-color: black;
+    border-radius: 9px;
+    margin: 3%;
+    height: 120px;
+    width: 400px;
+    background-color: blanchedalmond;
+}
+.linkedin{
+    border-style: solid;
+    border-color: black;
+    border-radius: 9px;
+    margin: 3%;
+    height: 120px;
+    width: 400px;
+    background-color: rgb(209, 247, 171);
+}
+
+@media screen and (max-width: 500px) {
+    .coninfo{
+        margin-left: 5%;
+    }
+    .email{
+        border-style: solid;
+        border-color: black;
+        border-radius: 9px;
+        height: 120px;
+        width: 300px;
+        background-color: lightcyan;
+    }
+    .mob{
+        border-style: solid;
+        border-color: black;
+        border-radius: 9px;
+        height: 120px;
+        width: 300px;
+        background-color: blanchedalmond;
+    }
+    .linkedin{
+        border-style: solid;
+        border-color: black;
+        border-radius: 9px;
+        height: 120px;
+        width: 300px;
+        background-color: rgb(209, 247, 171);
+    }
+}

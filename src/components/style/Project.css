@@ -1,0 +1,133 @@
+.mainpro {
+    padding: 10%;
+    padding-top: 3%;
+    align-items: center;
+    
+}
+h2{
+    text-align: center;
+}
+.updiv{
+    display: flex;
+}
+.lowdiv{
+    display: flex;
+}
+.leftpro{
+    border-style: solid;
+    border-color: black;
+    margin: 3%;
+    height: 300px;
+    width: 400px;
+    border-width: 1px;
+    text-align: center;
+}
+.midpro{
+    border-style: solid;
+    border-color: black;
+    margin: 3%;
+    height: 300px;
+    width: 400px;
+    border-width: 1px;
+    text-align: center;
+}
+.rightpro{
+    border-style: solid;
+    border-color: black;
+    margin: 3%;
+    height: 300px;
+    width: 400px;
+    border-width: 1px;
+    text-align: center;
+}
+#p1{
+    width: 100%;
+}
+
+.button{
+    margin-top: 3%;
+    background:#2c97ee;
+    color:#fff;
+    border:none;
+    position:relative;
+    height:30px;
+    font-size:1.6em;
+    padding:0 2em;
+    cursor:pointer;
+    transition:800ms ease all;
+    outline:none;
+    border-radius: 7px;
+  }
+  .button:hover{
+    background:#fff;
+    color:#1AAB8A;
+  }
+  .button:before,.button:after{
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:2px;
+    width:0;
+    background: #efa51c;
+    transition:400ms ease all;
+  }
+  .button:after{
+    right:inherit;
+    top:inherit;
+    left:0;
+    bottom:0;
+  }
+  .button:hover:before,button:hover:after{
+    width:100%;
+    transition:800ms ease all;
+  }
+  
+
+@media screen and (max-width: 500px) {
+    .updiv{
+        flex-direction: column;
+        margin: 0;
+    }
+    .lowdiv{
+        flex-direction: column;
+        margin: 0;
+    }
+    .leftpro{
+        border-style: solid;
+        border-color: black;
+        height: 200px;
+        width: 250px;
+        border-width: 1px;
+    }
+    .rightpro{
+        border-style: solid;
+        border-color: black;
+        height: 200px;
+        width: 250px;
+        border-width: 1px;
+    }
+    .midpro{
+        border-style: solid;
+        border-color: black;
+        height: 200px;
+        width: 250px;
+        border-width: 1px;
+    }
+
+    .button{
+        margin-top: 0;
+        background:#2c97ee;
+        color:#fff;
+        border:none;
+        position:relative;
+        height:25px;
+        font-size:1.6em;
+        padding:0 2em;
+        cursor:pointer;
+        transition:800ms ease all;
+        outline:none;
+        border-radius: 7px;
+      }
+}
+
