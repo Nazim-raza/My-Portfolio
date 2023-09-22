@@ -21,7 +21,9 @@ const About = () => {
           <h5>Education</h5>
           <h6>B.Sc Computer Science</h6>
         </div>
-        <button className="down">Download Resume</button>
+        <a href="https://drive.google.com/uc?export=download&id=15qd9TT3MlsVUSWw7JMWAg4zbT7Nrx67h">
+          <button className="down">Download Resume</button>
+        </a>
       </div>
     </div>
   );
