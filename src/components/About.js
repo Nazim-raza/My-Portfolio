@@ -14,11 +14,19 @@ const About = () => {
         <h1>About Me</h1>
         <h3>My Introduction</h3>
         <div className="details">
-          <h5>Experience</h5>
-          <h6>1.5 year</h6>
-          <h5>Projects</h5>
+          <h4>Experience</h4>
+          <p>
+            Over the past 1.5 years, I worked as a React Developer in GrowSoft
+            contributing to the development and enhancement of web applications
+            using the React. I held a versatile role where I served as a
+            frontend developer. On the frontend, I worked with React Js, HTML,
+            CSS, and JavaScript to create user-friendly and responsive
+            interfaces.
+          </p>
+
+          <h4>Projects</h4>
           <h6>10+</h6>
-          <h5>Education</h5>
+          <h4>Education</h4>
           <h6>B.Sc Computer Science</h6>
         </div>
         <a href="https://drive.google.com/uc?export=download&id=15qd9TT3MlsVUSWw7JMWAg4zbT7Nrx67h">
