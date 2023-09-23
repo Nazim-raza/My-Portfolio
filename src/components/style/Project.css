@@ -45,7 +45,7 @@ h2{
 }
 
 .button{
-    margin-top: 3%;
+    margin-top: 5%;
     background:#2c97ee;
     color:#fff;
     border:none;
@@ -85,6 +85,12 @@ h2{
   
 
 @media screen and (max-width: 500px) {
+    .mainpro {
+        padding: 2%;
+        padding-top: 3%;
+        align-items: center;
+        
+    }
     .updiv{
         flex-direction: column;
         margin: 0;
@@ -96,27 +102,27 @@ h2{
     .leftpro{
         border-style: solid;
         border-color: black;
-        height: 200px;
-        width: 250px;
+        height: 250px;
+        width: 320px;
         border-width: 1px;
     }
     .rightpro{
         border-style: solid;
         border-color: black;
-        height: 200px;
-        width: 250px;
+        height: 250px;
+        width: 320px;
         border-width: 1px;
     }
     .midpro{
         border-style: solid;
         border-color: black;
-        height: 200px;
-        width: 250px;
+        height: 250px;
+        width: 320px;
         border-width: 1px;
     }
 
     .button{
-        margin-top: 0;
+        margin-top: 3%;
         background:#2c97ee;
         color:#fff;
         border:none;

@@ -1,5 +1,9 @@
 import React from "react";
 import "./style/Home.css";
+import About from "./About";
+import Project from "./Project";
+import Skills from "./Skills";
+import Contact from "./Contact";
 
 const Home = () => {
   return (
@@ -9,11 +13,11 @@ const Home = () => {
           <a href="https://www.linkedin.com/in/nazim-raza-57758a1b1">
             <i class="fa-brands fa-linkedin"></i>
           </a>
-          &nbsp;&nbsp;
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           <a href="https://github.com/Nazim-raza">
             <i class="fa-brands fa-github"></i>
           </a>
-          &nbsp;&nbsp;
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           <a href="https://wa.me/9981693954">
             <i class="fa-brands fa-whatsapp"></i>
           </a>
@@ -36,6 +40,10 @@ const Home = () => {
           />
         </div>
       </div>
+      <About />
+      <Project />
+      <Skills />
+      <Contact />
     </div>
   );
 };

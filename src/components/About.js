@@ -4,12 +4,12 @@ import "./style/About.css";
 const About = () => {
   return (
     <div className="mainabout">
-      <div className="leftabt">
+      {/* <div className="leftabt">
         <img
           id="dp"
           src="https://media.licdn.com/dms/image/D4D03AQFDnUelWVCEgQ/profile-displayphoto-shrink_800_800/0/1684000916019?e=1700697600&v=beta&t=ru3WhMYXogMQGEa5a5gd6S4I8qXtHLDcRG66Q3RRHJ8"
         />
-      </div>
+      </div> */}
       <div className="rightabt">
         <h1>About Me</h1>
         <h3>My Introduction</h3>
